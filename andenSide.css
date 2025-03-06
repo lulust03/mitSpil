@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgba(255, 134, 213, 0.8);
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.quote-box, .quotes-box {
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(221, 58, 224, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.quote-box:hover, .quotes-box:hover {
+    background: rgba(240, 58, 224, 0.9);
+}
+
+.quote-box h2, .quotes-box h2 {
+    margin: 0;
+}
